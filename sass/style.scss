@@ -1,0 +1,113 @@
+body{
+
+  padding-top: 88px;
+}
+
+img{
+  cursor: pointer;
+}
+
+.box-shadown{
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0,.05),
+              0 2px 4px 0 rgb(0, 0, 0,.05);
+}
+
+nav{
+
+  background-color: #ffffff ;
+}
+
+.h2-carrosel {
+  position: relative;
+  font-size: 40px;
+  top: 10px;
+  
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+}
+
+.img-fundo{
+
+  background-image: url('../img/bg-quote.jpg');
+  background-size: cover;
+
+}
+
+.pergunta{
+  border-bottom: 1px solid rgb(212, 210, 210);
+}
+
+.perguntas {
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.span{
+  color: gray;
+}
+
+@media (max-width: 788px){
+
+  .centralizar{
+    text-align: center;
+  }
+  .botao-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .plano-img{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .plano-p{
+    text-align: center;
+  }
+  
+
+}
+
+.planos-lista li{
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+    &:hover{
+      color: #0C65E9;
+    }
+    &:last-child{
+      border-bottom: 0px solid gray;
+    }
+}
+
+.planos-lista-2 li{
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+    &:hover{
+      color: #0fce75;
+    }
+    &:last-child{
+      border-bottom: 0px solid gray;
+    }
+}
+
+
+.contato-span{
+  font-size: 12px;
+  padding-top: 2px;
+  color: rgb(148, 148, 148);
+}
+
+.contato-socias a{
+
+  font-size: 12px;
+  width: 8rem;
+  margin-top: 5px;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTATO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sass/style.css">
+</head>
+<body>
+  
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tá com fome né?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <h2 class="h6">Qual pais desejas?</h2>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <h2 class="h6 pt-2">Digite seu Email:</h2>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Modal -->
+  
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-3 box-shadown">
+    <div class="container-fluid">
+      <h1><a style="text-decoration: none;" class="text-black" href="index.html">GourmetVoyage</a></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="me-auto">
+        </ul>
+
+        <ul class="navbar-nav ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" href="#">Culinária</a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="index.html">Alemanha</a></li>
+              <li><a class="dropdown-item" href="index.html">Peruana</a></li>
+              <li><a class="dropdown-item" href="index.html">Italiana</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "  href="Planos.html">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2" href="inscricao.html">Inscreva-se</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container">
+
+    <section>
+      <div class="my-5 text-center">
+        <span class="h6 d-block">Tens alguma dúvida?</span>
+        <h2 class="display-4 text-primary">Fale Conosco</h2>
+      </div>
+
+    </section>
+
+    <section>
+      <!--parte 1-->
+      <div class="row">
+        <div class="col-md py-2">
+          <div class="bg-light rounded p-4 box-shadown mb-5">
+            <form action="">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nome: </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email: </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Digite sua mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+            <div class="col-5 d-grid gap-2">
+              <a style="width: 8rem;"  class="btn btn-primary btn-ls p-2" href="">ENVIAR</a>
+            </div>
+          </div>
+        </div>
+      <!--parte 2-->
+        <div class="col-md py-2">
+            <div class="centralizar rounded  mb-5">
+
+              <div class="col">
+                <span>NOSSO ENDEREÇO:</span>
+                <img class="img-fluid rounded pt-2" src="./img/locarização.png" alt="">
+              </div>
+
+              <div class="row ">
+                <span class="pt-2">DADOS DE CONTATO:</span>
+                <span class="contato-span">caravan@caravan.com.br</span>
+                <span class="contato-span">21 99999-9999</span>
+                <span class="contato-span">De Seg. à Sex. das 8h às 18h</span>
+              </div>
+
+              <div class="row contato-socias">
+
+                  <span class="pt-2">REDES SOCIAS:</span>
+                  <div class="d-grid botao-sociais">
+                    <a class="btn btn-outline-secondary" href="">FACEBOOK</a>
+                    <a class="btn btn-outline-secondary" href="">TWITTER</a>
+                    <a class="btn btn-outline-secondary" href="">YOUTUBE</a>
+                  </div>
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+
+      <div class="my-5 text-center">
+        <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
+        <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <div class="pergunta py-1">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">→ Quantos planos eu consigo fazer?</a>
+            
+            <div class=".collapse.show" id="collapseExample1">
+              <p class="pt-2">Quanto voce desejar,temos comida a vontade para dar e vender</p>
+            </div>
+          </div>
+
+          <div class="pergunta py-3">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">→ Qual garantia que tenho? </a>
+            
+            <div class="collapse" id="collapseExample">
+              <p class="pt-2">Na dúvida,lhe daremos uma poção de graça independendo da culinária solicitada</p>
+            </div>
+          </div>
+
+          <div class="pergunta py-3">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">→ A porção é grande? </a>
+            
+            <div class="collapse" id="collapseExample2">
+              <p class="pt-2">É gigantesca,muita comida deliciona para sua familia </p>
+            </div>
+          </div>
+
+          <div class="pergunta py-3">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">→ Durante a viagem teremos comida? </a>
+            
+            <div class="collapse" id="collapseExample3">
+              <p class="pt-2">Não só a viagem,mas toda hora que desejar você terá um banque de culturas culinária solicitada</p>
+            </div>
+          </div>
+
+          <div class="pergunta py-3">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">→ Quem fez o Site? </a>
+            
+            <div class="collapse" id="collapseExample4">
+              <p class="pt-2">Vinicius Andrade criou o site em com os palpite da <strong>Darcira</strong> ;)</p>
+            </div>
+          </div>
+
+          <div class="pergunta py-3">
+            <a class="lead text-primary  perguntas" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">→ Qual tecnologia foi usada </a>
+            
+            <div class="collapse" id="collapseExample5">
+              <p class="pt-2">Bootstrap,html,css,sass,design UX/UI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </section>
+
+
+
+
+  <section class="bg-dark">
+    <div class="container py-4 text-white">
+      <div class="row">
+        <div class="col-lg-3 col-sm-4 col-6">
+          <h6>PÁGINAS</h6>
+          <ul class="list-unstyled">
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="">Inscreva-se</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-4 col-6">
+          <h6>CURINÁRIA</h6>
+          <ul class="list-unstyled">
+            <li><a href="planos.html">Alemanha</a></li>
+            <li><a href="planos.html">Peruana</a></li>
+            <li><a href="planos.html">Italiana</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-4 col-6">
+          <h6>DADOS DE CONTATO</h6>
+          <div class="row ">
+            <span class="span">caravan@caravan.com.br</span>
+            <span class="span">21 99999-9999</span>
+            <span class="span"> De Seg. à Sex. das 8h às 18h </span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-4 col-6">
+          <h6>REDES SOCIAIS</h6>
+          <div class="row ">
+            <ul class="list-unstyled">
+              <li><a style="width: 120px;" class="btn btn-outline-secondary btn-block mb-2 pt-2" href="planos.html">Facebook</a></li>
+              <li><a style="width: 120px;" class="btn btn-outline-secondary btn-block mb-2" href="planos.html">Twitter</a></li>
+              <li><a style="width: 120px;height: 40px;" class="btn btn-outline-secondary btn-block mb-2" href="planos.html">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-primary text-white">
+    <div class="container py-4 ">
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <h6>GourmetVoyage © 2023. Alguns direitos reservados.</h6>
+        </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
